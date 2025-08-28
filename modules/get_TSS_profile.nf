@@ -1,5 +1,5 @@
 process TSS_profile_mono{
-  label 'mid'
+  label 'big'
 
   input:
   file(bw)
@@ -38,7 +38,7 @@ process TSS_profile_plot_mono{
 }
 
 process TSS_profile_sub{
-  label 'mid'
+  label 'big'
 
   input:
   file(bw)
